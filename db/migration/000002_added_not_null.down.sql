@@ -1,0 +1,3 @@
+ALTER TABLE entries ALTER COLUMN account_id DROP NOT NULL;
+
+ALTER TABLE transfers ALTER COLUMN amount DROP NOT NULL;
