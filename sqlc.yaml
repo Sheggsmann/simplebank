@@ -13,3 +13,5 @@ sql:
             package: "db"
             out: "./db/sqlc"
             sql_package: ""
+            emit_empty_slices: true
+            emit_interface: true
